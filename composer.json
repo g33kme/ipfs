@@ -1,0 +1,21 @@
+{
+    "name": "g33kme/ipfs",
+    "description": "IPFS PHP Wrapper - About Easy to use PHP Wrapper for IPFS to work with the HTTP API of IPFS. When an IPFS node is running as a daemon, it exposes an HTTP API that allows you to control the node.",
+    "keywords": [ "ipfs", "php", "ipfs php", "ipfs http", "ipfs api", "ipfs node api", "ipfs api php" ],
+    "homepage": "https://geekme.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geekme",
+            "homepage": "https://geekme.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "g33kme\\ipfs\\": "source/"
+        }
+    }
+}
